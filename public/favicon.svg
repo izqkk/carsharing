@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6"/>
+      <stop offset="100%" style="stop-color:#1d4ed8"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="108" fill="url(#bg)"/>
+  <g transform="translate(56, 156)">
+    <!-- Car body -->
+    <path d="M380 80H20c-11 0-20 9-20 20v60c0 11 9 20 20 20h360c11 0 20-9 20-20v-60c0-11-9-20-20-20z" fill="white"/>
+    <!-- Car roof -->
+    <path d="M310 20H90c-5.5 0-10.5 3-13 8L50 80h300l-27-52c-2.5-5-7.5-8-13-8z" fill="white"/>
+    <!-- Front window -->
+    <path d="M85 40L60 75h100V40H85z" fill="#93c5fd" opacity="0.9"/>
+    <!-- Rear window -->
+    <path d="M180 40v35h100l-20-35H180z" fill="#93c5fd" opacity="0.9"/>
+    <!-- Front wheel -->
+    <circle cx="90" cy="180" r="44" fill="#1e3a5f"/>
+    <circle cx="90" cy="180" r="28" fill="#334155"/>
+    <circle cx="90" cy="180" r="12" fill="#94a3b8"/>
+    <!-- Rear wheel -->
+    <circle cx="310" cy="180" r="44" fill="#1e3a5f"/>
+    <circle cx="310" cy="180" r="28" fill="#334155"/>
+    <circle cx="310" cy="180" r="12" fill="#94a3b8"/>
+    <!-- Headlight -->
+    <rect x="355" y="100" width="30" height="20" rx="4" fill="#fef08a"/>
+    <!-- Taillight -->
+    <rect x="15" y="100" width="25" height="20" rx="4" fill="#fca5a5"/>
+    <!-- Door line -->
+    <line x1="200" y1="85" x2="200" y2="175" stroke="#e2e8f0" stroke-width="3"/>
+  </g>
+</svg>
