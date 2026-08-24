@@ -138,8 +138,8 @@ then turn them off.
 ### 4. Configure and run the app
 
 ```bash
-git clone https://github.com/izqkk/carsharing-public.git
-cd carsharing-public
+git clone https://github.com/izqkk/carsharing.git
+cd carsharing
 npm install
 
 cp .env.example .env

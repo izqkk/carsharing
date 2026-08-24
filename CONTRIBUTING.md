@@ -14,8 +14,8 @@ the README for what is deliberately missing.
 ## Setting up
 
 ```bash
-git clone https://github.com/izqkk/carsharing-public.git
-cd carsharing-public
+git clone https://github.com/izqkk/carsharing.git
+cd carsharing
 npm install
 cp .env.example .env   # point it at a throwaway Supabase project
 npm run dev
